@@ -6,6 +6,9 @@
         remote="bluewalker-github"
         sync-j="4"/>
 
+    <!-- Gradle -->
+    <project path="." name="GradleBaseProject"
+        remote="bluewalker-github" revision="master" />
     <!-- Libraries -->
     <project path="Libraries/Core" name="Core"
         remote="bluewalker-github" revision="master" />
