@@ -21,7 +21,9 @@
     <project path="Libraries/BeaconLib" name="BeaconLib"
         remote="bw" revision="master" />
     <!-- Examples -->
-    <project path="Examples" name="Examples"
+    <project path="Examples/BeaconLibExample" name="BeaconLibExample"
+        remote="bw" revision="master" />
+    <project path="Examples/BeaconLibGlassExample" name="BeaconLibGlassExample"
         remote="bw" revision="master" />
     <!-- Apps -->
     <project path="Apps/GlassApplication" name="GlassApplication"
