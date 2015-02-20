@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="bluewalker-github" fetch="https://github.com/BlueWalker"/>
+    <remote name="bw" fetch="https://github.com/BlueWalker"/>
 
     <default revision="refs/heads/master"
-        remote="bluewalker-github"
+        remote="bw"
         sync-j="4"/>
 
     <!-- Gradle -->
     <project path="." name="GradleBaseProject"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <!-- Libraries -->
     <project path="Libraries/Core" name="Core"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <project path="Libraries/UserTrackerModule" name="UserTrackerModule"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <project path="Libraries/Trilateration" name="Trilateration"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <project path="Libraries/Pathfinding" name="Pathfinding"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <project path="Libraries/BeaconLib" name="BeaconLib"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <!-- Examples -->
     <project path="Examples" name="Examples"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
     <!-- Apps -->
     <project path="Apps/GlassApplication" name="GlassApplication"
-        remote="bluewalker-github" revision="master" />
+        remote="bw" revision="master" />
 </manifest>
