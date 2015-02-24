@@ -11,21 +11,21 @@
         remote="bw" revision="master" />
     <!-- Libraries -->
     <project path="Libraries/Core" name="Core"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="libs"/>
     <project path="Libraries/UserTrackerModule" name="UserTrackerModule"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="libs"/>
     <project path="Libraries/Trilateration" name="Trilateration"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="libs"/>
     <project path="Libraries/Pathfinding" name="Pathfinding"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="libs"/>
     <project path="Libraries/BeaconLib" name="BeaconLib"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="libs"/>
     <!-- Examples -->
     <project path="Examples/BeaconLibExample" name="BeaconLibExample"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="examples"/>
     <project path="Examples/BeaconLibGlassExample" name="BeaconLibGlassExample"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="examples"/>
     <!-- Apps -->
     <project path="Apps/GlassApplication" name="GlassApplication"
-        remote="bw" revision="master" />
+        remote="bw" revision="master" groups="apps"/>
 </manifest>
