@@ -12,8 +12,6 @@
     <!-- Libraries -->
     <project path="Libraries/Core" name="Core"
         remote="bw" revision="master" groups="libs"/>
-    <project path="Libraries/UserTrackerModule" name="UserTrackerModule"
-        remote="bw" revision="master" groups="libs"/>
     <project path="Libraries/Trilateration" name="Trilateration"
         remote="bw" revision="master" groups="libs"/>
     <project path="Libraries/Pathfinding" name="Pathfinding"
