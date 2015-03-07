@@ -23,6 +23,8 @@
         remote="bw" revision="master" groups="examples"/>
     <project path="Examples/BeaconLibGlassExample" name="BeaconLibGlassExample"
         remote="bw" revision="master" groups="examples"/>
+    <project path="Examples/IndicatorViewExample" name="IndicatorViewExample"
+        remote="bw" revision="master" groups="examples"/>
     <!-- Apps -->
     <project path="Apps/GlassApplication" name="GlassApplication"
         remote="bw" revision="master" groups="apps"/>
