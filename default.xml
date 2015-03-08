@@ -28,4 +28,7 @@
     <!-- Apps -->
     <project path="Apps/GlassApplication" name="GlassApplication"
         remote="bw" revision="master" groups="apps"/>
+    <project path="Apps/DemoAndroidApp" name="DemoAndroidApp"
+        remote="bw" revision="master" groups="apps"/>
+
 </manifest>
